@@ -1,0 +1,11 @@
+.tab-with-border {
+  border-bottom: 1px solid #006fbb;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  li {
+    border: 1px solid #006fbb;
+    a {
+      color: #006fbb;
+    }
+  }
+}
