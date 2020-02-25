@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dis/css/bulma.min.css" />
+    <link rel="stylesheet" href="./dis/css/style.min.css" />
+    <link rel="stylesheet" href="./dis/css/bulma-extensions.min.css" />
+    <!-- <link rel="stylesheet" href="./debug.css" /> -->
+    <title>Auto Hide | Sold Out</title>
+  </head>
+  <body>
+
+
+    <div class="tabs is-medium" style="align-items: center; padding: 0 3rem;">
+      <div style="padding-left: 3rem;">
+        <ul>
+          <li>
+            <a href="./hideInstantly.html" >Hide Instantly</a></li>
+          <li class="is-active"><a href="#" >Hide With Schedule</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="field is-grouped">
+          <p class="control">
+            <button class="button is-primary button-modified">
+              Help
+            </button>
+          </p>
+          <p class="control">
+            <button class="button is-primary button-modified">
+              Change Plan
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container container-modified">
+      <div class="box modified-shadow">
+        <div class="contianer flex-with-space-between">
+          <h1 class="title has-text-black is-6">Enable / Disable App On Schedule</h1>
+          <label class="label">
+            <div class="toggle">
+              <input
+                class="toggle-state"
+                type="checkbox"
+                name="check"
+                value="check"
+                checked="checked"
+              />
+              <div class="toggle-inner">
+                <div class="indicator"></div>
+              </div>
+              <div class="active-bg"></div>
+            </div>
+          </label>
+        </div>
+
+        <div class="container" style="margin-bottom: 24px;">
+          <h1 class="subtitle is-6 has-text-grey">
+            Want to display app temporary on schedule? Try to toggle this option.
+          </h1>
+        </div>
+        <div class="columns" >
+          <div class="column ">
+            <h1 class="subtitle is-6 has-text-grey">Start Date</h1>
+            <div class="field ">
+              <div class="control">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="mm/dd/yyyy"
+                />
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="column">
+            <h1 class="subtitle is-6 has-text-grey">End Date</h1>
+            <div class="field is-paddingless">
+              <div class="control is-marginless">
+                <input
+                  class="input is-marginless"
+                  type="text"
+                  placeholder="mm/dd/yyyy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-modified add-margin-top">
+      <div class="box modified-shadow">
+        <div class="contianer flex-with-space-between">
+          <h1 class="title has-text-black is-6">Hide Products By Tags</h1>
+          <label class="label">
+            <div class="toggle">
+              <input
+                class="toggle-state"
+                type="checkbox"
+                name="check"
+                value="check"
+                checked="checked"
+              />
+              <div class="toggle-inner">
+                <div class="indicator"></div>
+              </div>
+              <div class="active-bg"></div>
+            </div>
+          </label>
+        </div>
+
+        <div class="container">
+          <h1 class="subtitle is-6 has-text-grey">
+            If enabled this app will hide the sold out products with matching
+            tags
+          </h1>
+        </div>
+
+        <div class="field add-margin-top-low text-box-modified">
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="Start typing tag name"
+            />
+          </div>
+        </div>
+
+        <div class="container add-margin-top-low">
+          <div class="field is-grouped is-grouped-multiline">
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">tvs</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">corsair</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">htc</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">mdcomputers</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">apple</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">google</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-modified add-margin-top">
+      <div class="box modified-shadow">
+        <div class="contianer flex-with-space-between">
+          <h1 class="title has-text-black is-6">
+            Hide Products By Collections
+          </h1>
+          <label class="label">
+            <div class="toggle">
+              <input
+                class="toggle-state"
+                type="checkbox"
+                name="check"
+                value="check"
+                checked="checked"
+              />
+              <div class="toggle-inner">
+                <div class="indicator"></div>
+              </div>
+              <div class="active-bg"></div>
+            </div>
+          </label>
+        </div>
+
+        <div class="container">
+          <h1 class="subtitle is-6 has-text-grey">
+            If enabled this app will hide the sold put products within
+            collections.
+          </h1>
+        </div>
+
+        <div class="field add-margin-top-low text-box-modified">
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="Start typing collection name"
+            />
+          </div>
+        </div>
+
+        <div class="container add-margin-top-low">
+          <div class="field is-grouped is-grouped-multiline">
+            <div class="control">
+              <div class="tags has-addons">
+                <a class="tag">furniture</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <a class="tag">headphones</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <a class="tag">electronics</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <a class="tag">tshirts</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <a class="tag">smartphone</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <a class="tag">computer</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-modified add-margin-top">
+      <div class="box modified-shadow">
+        <div class="contianer flex-with-space-between">
+          <h1 class="title has-text-black is-6">Hide Products With No Image</h1>
+          <label class="label">
+            <div class="toggle">
+              <input
+                class="toggle-state"
+                type="checkbox"
+                name="check"
+                value="check"
+                checked="checked"
+              />
+              <div class="toggle-inner">
+                <div class="indicator"></div>
+              </div>
+              <div class="active-bg"></div>
+            </div>
+          </label>
+        </div>
+
+        <div class="container">
+          <h1 class="subtitle is-6 has-text-grey">
+            Want to hide all products without image? Try to toggle this option
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-modified add-margin-top">
+      <div class="box modified-shadow">
+        <div class="contianer flex-with-space-between">
+          <h1 class="title has-text-black is-6">
+            Excluded Tags
+          </h1>
+          <label class="label">
+            <div class="toggle">
+              <input
+                class="toggle-state"
+                type="checkbox"
+                name="check"
+                value="check"
+                checked="checked"
+              />
+              <div class="toggle-inner">
+                <div class="indicator"></div>
+              </div>
+              <div class="active-bg"></div>
+            </div>
+          </label>
+        </div>
+
+        <div class="container">
+          <h1 class="subtitle is-6 has-text-grey">
+            If enabled this app will not hide the products with follwoing tags.
+          </h1>
+        </div>
+
+        <div class="field add-margin-top-low text-box-modified">
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="Start typing excluded tag name"
+            />
+          </div>
+        </div>
+
+        <div class="container add-margin-top-low">
+          <div class="field is-grouped is-grouped-multiline">
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">jbl</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">fevicol</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons ">
+                <a class="tag">scanner</a>
+                <a class="tag is-delete"></a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+  </body>
+</html>
