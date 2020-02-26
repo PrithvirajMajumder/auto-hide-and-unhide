@@ -1,0 +1,38 @@
+@import "toggle";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+
+$containerWidth: 30rem;
+$mainFont: "Montserrat";
+body {
+  background: #f4f6f8;
+  margin: 0;
+  font-family: $mainFont;
+}
+
+.container-modified {
+  width: $containerWidth;
+}
+
+.flex-with-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-margin-top {
+  margin-top: 2rem;
+}
+.add-margin-top-low {
+  margin-top: 1rem;
+}
+
+.text-box-modified {
+  width: 60%;
+}
+
+.modified-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.button-modified {
+  width: 8rem;
+}
